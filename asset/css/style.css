@@ -1,0 +1,169 @@
+/*Reset*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*body*/
+body{
+    
+    width: 80%;
+    margin: 0 auto;
+}
+/*main*/
+main{
+    margin: 20px 0;
+
+   
+}
+/*header*/
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    margin-top: 30px;
+}
+
+.logo{
+    height: 80px;
+    width: 190px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: rgb(189, 189, 189);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: grey
+    ;
+}
+
+.section1{
+    background-image: url(../img/banner.jpg);
+    width: 65%;
+    height: 580px;
+    margin-top: -520px;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    margin-left: 17%;
+    
+
+}
+
+.paragrafo1{
+    color: white;
+    margin-top: 450px;
+    margin-left: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 310px;
+}
+
+
+.b-color{
+    
+    background-color: white;
+    width: 100%;
+    height: 750px;
+    margin-top: 30px;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.c-blue{
+    background-color: white;
+    height: 100px;
+    width: 100%;
+    float: left;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+
+.p{
+    color: rgb(168, 168, 168);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*Foto e paragrafo della parte sinistra*/
+
+.blue-sinistra{
+    background-color: white;
+    height: 300px;
+    width: 15%;
+    float: left;
+    margin: 30px 0 0 ;
+    background-image: url(../img/img-1.jpg);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+
+}
+.posizione{
+    margin-top: 320px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+/*Banner e paragrafo centrale*/
+
+.blue-centrale{
+    background-color: rgb(154, 198, 255);
+    background-image: url(../img/banner-2.jpg);
+    height: 300px;
+    width: 986px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+
+
+.blue-destra{
+
+    background-color: rgb(154, 198, 255);
+    background-image: url(../img/img-3.jpg);
+    height: 300px;
+    width: 15%;
+    float: left;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 0px;
+    border-radius: 10px;
+    
+
+}
+
+.footer{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+}
+
