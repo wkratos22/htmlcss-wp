@@ -16,6 +16,13 @@ main{
 
    
 }
+/*clearfix*/
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
 /*header*/
 .header{
     width: 100%;
@@ -24,11 +31,14 @@ main{
     margin-top: 30px;
 }
 
+
+/*logo pagina*/
 .logo{
     height: 80px;
     width: 190px;
 }
 
+/*Navbar*/
 
 ul {
     list-style-type: none;
@@ -55,11 +65,16 @@ li a:hover {
     ;
 }
 
+/*fine navbar*/
+
+
+/*inizio primo banner*/
+
 .section1{
     background-image: url(../img/banner.jpg);
     width: 65%;
     height: 580px;
-    margin-top: -520px;
+    margin-top: 45px;
     border-radius: 15px;
     background-repeat: no-repeat;
     margin-left: 17%;
@@ -69,13 +84,17 @@ li a:hover {
 
 .paragrafo1{
     color: white;
-    margin-top: 450px;
-    margin-left: 50px;
+    margin-top: 420px;
+    margin-left: 90px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-left: 310px;
+    position: absolute;
 }
 
+/*fine primmo banner*/
 
+
+/*inizio secondo banner*/
 .b-color{
     
     background-color: white;
@@ -84,11 +103,7 @@ li a:hover {
     margin-top: 30px;
 }
 
-.clearfix::after{
-    content: "";
-    display: table;
-    clear: both;
-}
+
 
 .c-blue{
     background-color: white;
@@ -100,7 +115,7 @@ li a:hover {
     
 }
 
-
+/*stile paragrafo delle foto*/
 .p{
     color: rgb(168, 168, 168);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -141,6 +156,7 @@ li a:hover {
 }
 
 
+/*foto e paragrafo della parte destra destra*/
 .blue-destra{
 
     background-color: rgb(154, 198, 255);
@@ -156,6 +172,8 @@ li a:hover {
 
 }
 
+/*footer*/
+
 .footer{
     width: 100%;
     height: 60px;
@@ -167,3 +185,14 @@ li a:hover {
     font-size: 20px;
 }
 
+.overlayBanner1{
+    background-color: rgba(68, 68, 68, 0.2);
+    position: absolute;
+    top: 155px;
+    bottom: 258px;
+    left: 440px;
+    right: 455px;
+    border-radius: 15px;
+}
+
+  
